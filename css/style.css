@@ -1,0 +1,40 @@
+:root{
+    --main-font: 'Charmonman', cursive;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    font-family: var(--main-font);
+    height: 100%;
+    background: linear-gradient(to top, #33ccff80 0%, #ff99cc77 100%);
+    overflow-y: hidden;
+}
+
+.header{
+    display: flex;
+    box-shadow: 0 0 10px gray;
+    padding: 0 20px;
+}
+.header .logo{
+    display: flex;
+    align-items: center;
+}
+
+.header .navs ul{
+    display: flex;
+    align-items: center;
+}
+
+.navs ul li.nav{
+    list-style: none;
+    margin: 0 10px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+li.nav a {
+    color: black !important;
+}
