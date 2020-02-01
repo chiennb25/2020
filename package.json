@@ -1,0 +1,15 @@
+{
+  "name": "2020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy":"gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://chiennb25.github.io/2020",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
